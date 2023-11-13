@@ -9,8 +9,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
     <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
-
     <script src="https://cdn.jsdelivr.net/npm bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
@@ -39,12 +40,16 @@
         </button>
       </form>
       <li class="nav-item m-3 nvm">
-        <a class="nav-link active" aria-current="page" href="#">
+        <a class="nav-link active" aria-current="page" href="#signin">
           Login</a>
+          
       </li>
       <li class="nav-item m-3 nvm">
-        <a class="nav-link" href="#">Sign In</a>
+        <a class="nav-link" href="#signup">Sign Up</a>
       </li>
+
+
+      
       <i class="fa fa-shopping-cart m-4 nvm" style="font-size:20px"></i>
     </ul>
     <div id="mySidenav" class="sidenav">
@@ -697,7 +702,41 @@
       </div>
   </div>
 </section>
+<div class="signin" id="signin">
+  <div class="signup">
+   <h3 class="text-center">Sign In</h3>
+ 
+  Email:
+       <input type="email" id="fname" name="firstname" placeholder="Your email.." required> 
+  password:
+       <input type="password" id="fname" name="firstname" placeholder="Your Password.." required> 
+  
+</div>
+</div>
+<div class="sign" id="signup">
+<div class="signup">
+ <h3 class="text-center">Sign Up</h3>
+First Name:
+    <input type="password" id="fname" name="firstname" placeholder="Your First name.." required> 
+Last Name:
 
+     <input type="text" id="fname" name="firstname" placeholder="Your Last name.." required> 
+Email:
+     <input type="email" id="fname" name="firstname" placeholder="Your email.." required> 
+password:
+     <input type="password" id="fname" name="firstname" placeholder="Your Password.." required> 
+country:
+     <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+Number:
+<input type="phone" id="fname" name="firstname" placeholder="Your Number.." > 
+<input type="submit" value="Submit">
+
+</div>
+</div>
 <footer>
   <div class="container-fluid end">
   <div class="row">
@@ -718,7 +757,7 @@
 
   </div>
   </div>
-  
+
   <div class="col-lg-3 col-sm-8">
 <div class="container-fluid Feedback" id="contact">
   <div class="vl"> 
