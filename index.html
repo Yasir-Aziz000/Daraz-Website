@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <title>Daraz</title>
+  <link rel = "icon" href =  
+"Daraz-Logo.png" 
+        type = "image/x-icon"> 
+</head>
+
+<body>
+  <nav>
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+    <ul class="nav ">
+      
+      <div class="lgg">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()"> </span>
+        <span onclick="openNav()">
+      <img src="Daraz-Logo-2012.png" id="my" class="mySidenav M-5" margin-left="30PX"  margin-right="60px"  height="80px" width="100px">
+    </span>
+    </div>
+      <form >
+        <input class="int" placeholder="Search In Daraz" />
+        <button class="btns"> <i class="fa fa-search"></i>
+        </button>
+      </form>
+      <li class="nav-item m-3 nvm">
+        <a class="nav-link active" aria-current="page" href="#">
+          Login</a>
+      </li>
+      <li class="nav-item m-3 nvm">
+        <a class="nav-link" href="#">Sign In</a>
+      </li>
+      <i class="fa fa-shopping-cart m-4 nvm" style="font-size:20px"></i>
+    </ul>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+
+      <a href="#men">Men</a>
+      <a href="#women">Women</a>
+      <a href="#newarrival">New Arrival</a>
+
+      <a href="#trending">Trending</a>
+    </div>
+
+  </div>
+</div>
+  </nav>
+
+  <div class="main">
+    <div class="row">
+      <div class="col-lg-3 col-sm-2">
+
+        <div class="desc">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active nl" aria-current="page" href="#">Watches</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nl" href="#">Shoes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nl" href="#">Shirts</a>
+                </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nl" href="#">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nl" href="#">Shirts</a>
+              </li>
+              <div class="dropdown">
+                <button class="dropbtn">Mens</button>
+                <div class="dropdown-content">
+                  <a href="#">Shoes</a>
+                  <a href="#">Shirts</a>
+                  <a href="#">Jackets</a>
+                </div>
+              </div>
+                </ul>
+                </nav>
+              </ul>
+            </div>
+        
+      </div>
+      <div class="col-xl-9 col-sm-12">
+
+        <div class="cr">
+            
+            <div class="outer-wrapper">
+              <div class="s-wrap s-type-1" role="slider">
+                <input type="radio" id="s-1" name="slider-control" checked="checked">
+                <input type="radio" id="s-2" name="slider-control">
+                <input type="radio" id="s-3" name="slider-control">
+                <input type="radio" id="s-4" name="slider-control">
+                <input type="radio" id="s-5" name="slider-control">
+                <ul class="s-content">
+                  <li class="s-item s-item-1"></li>
+                  <li class="s-item s-item-2"></li>
+                  <li class="s-item s-item-3"></li>
+                  <li class="s-item s-item-4"></li>
+                  <li class="s-item s-item-5"></li>
+                </ul>
+                <div class="s-control">
+                  <label class="s-c-1" for="s-1"></label>
+                  <label class="s-c-2" for="s-2"></label>
+                  <label class="s-c-3" for="s-3"></label>
+                  <label class="s-c-4" for="s-4"></label>
+                  <label class="s-c-5" for="s-5"></label>
+                </div>
+                <div class="s-nav">
+                  <label class="s-nav-1 right" for="s-2"></label>
+                  <label class="s-nav-2 left" for="s-1"></label>
+                  <label class="s-nav-2 right" for="s-3"></label>
+                  <label class="s-nav-3 left" for="s-2"></label>
+                  <label class="s-nav-3 right" for="s-4"></label>
+                  <label class="s-nav-4 left" for="s-3"></label>
+                  <label class="s-nav-4 right" for="s-5"></label>
+                  <label class="s-nav-5 left" for="s-4"></label>
+                </div>
+              </div>
+              </div>
+            
+
+
+
+
+      </div>
+    </div>
+  </div>
+      <!-- About Us-->
+
+        <h1 class="text-center">About Us</h1>
+        <div class="container about" id="about">
+          <div class="row">
+            <div class="col-lg-4 col-sm-3  m-5">
+              <h1>About Daraz</h1>
+              <p>Welcome to Daraz, your one-stop destination for an unmatched shopping experience where choice
+                meets convenience. At Daraz, we've redefined the way you explore and access a world of diverse
+                brands and products, all in one place.</p>
+                <p>Welcome to Daraz, your one-stop destination for an unmatched shopping experience where choice
+                  meets convenience.experience where choice
+                  meets convenience</p>
+                <button class="abbtn"> About Us</button>
+            </div>
+
+
+            <div class="col-lg-5 col-sm-8 m-5">
+              <img src="clothingstore-home-pic2.webp" class="abtimg" width="100%" height="450px">
+
+            </div>
+
+          </div>
+
+        </div>
+        <div class="abd justify-content-start p-5">
+          <!-- <div class="abcd justify-content-start p-5"> -->
+          <P>Our journey began with a vision to bridge the gap between brands and customers, making it effortless for
+            you to discover, compare, and purchase products from a wide range of reputable brands. We understand that
+            your preferences are as unique as you are, and that's why we've created a platform that empowers you to shop
+            according to your will. Exploring Brands, Unleashing Choices BrandzGo is not just an online marketplace;
+            it's a curated universe of possibilities. Here's what sets us apart:
+
+            Diverse Brand Portfolio: We've partnered with a multitude of brands across various industries, from fashion
+            and electronics to home decor and more. You'll find renowned names alongside emerging stars, ensuring you
+            always have the latest and greatest options at your fingertips.
+            Tailored Shopping Experience: Our platform is designed with you in mind. Easily browse, compare, and filter
+            products based on your preferences, ensuring you find exactly what you're looking for.
+            Seamless Transactions: Shopping on BrandzGo is a breeze. Enjoy secure, hassle-free transactions and multiple
+            payment options, so you can shop with confidence. </P>
+          <h1>Our Commitment</h1>
+          <p>At Daraz, we are committed to providing you with a seamless and enjoyable shopping experience. Our
+            dedicated team works tirelessly to curate products, improve functionality, and enhance your overall
+            satisfaction </p>
+          </div>
+        <!-- </div> -->
+
+    </div>
+
+    <!--FOr Men-->
+
+    <h1 class="text-center mt-5 mb-5">For Men</h1>
+    <div class="men mt-5" id="men">
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <div class="card">
+            <button class="card__love-btn">
+              <svg viewBox="0 0 512 512" width="100" title="heart">
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+              </svg>
+            </button>
+            <img class="card__img" src='6ff0d9828cf371023c1a2ad79311d919.jpg_300x0q75.webp'  alt="Classical Watch">
+            <div class="card__body">
+              <h3 class="card__title">Classical Watch Two</h3>
+              <p class="card__text">
+                A classical watch is a timeless and elegant timepiece with its refined design and attention to detail
+                that embodies sophistication and craftsmanship.
+              </p>
+              <div class="card__footer">
+                <button class="btnm">
+                  <svg viewBox="0 0 576 512" width="100" title="shopping-cart">
+                    <path
+                      d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z" />
+                  </svg>
+                  Add to cart
+                </button>
+                <h4 class="price">$250</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-8">
+
+          <div class="card">
+            <button class="card__love-btn">
+              <svg viewBox="0 0 512 512" width="100" title="heart">
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+              </svg>
+            </button>
+            <img class="card__img" src='8be07203f7d9e3d19c768428bfe1014c.jpg_300x0q75.webp' alt="Classical Watch">
+            <div class="card__body">
+              <h3 class="card__title">Classical Watch Two</h3>
+              <p class="card__text">
+                A classical watch is a timeless and elegant timepiece with its refined design and attention to
+                detail that embodies sophistication and craftsmanship.
+              </p>
+              <div class="card__footer">
+                <button class="btnm">
+                  <svg viewBox="0 0 576 512" width="100" title="shopping-cart">
+                    <path
+                      d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z" />
+                  </svg>
+                  Add to cart
+                </button>
+                <h4 class="price">$250</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-8">
+
+          <div class="card">
+            <button class="card__love-btn">
+              <svg viewBox="0 0 512 512" width="100" title="heart">
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+              </svg>
+            </button>
+            <img class="card__img" src='photo-1523275335684-37898b6baf30.jpg' alt="Classical Watch">
+            <div class="card__body">
+              <h3 class="card__title">Classical Watch Two</h3>
+              <p class="card__text">
+                A classical watch is a timeless and elegant timepiece with its refined design and attention to
+                detail that embodies sophistication and craftsmanship.
+              </p>
+              <div class="card__footer">
+                <button class="btnm" type="submit">
+                  <svg viewBox="0 0 576 512" width="100" title="shopping-cart">
+                            <path
+                              d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z" />
+                          </svg>
+                  Add to cart
+                </button>
+                <h4 class="price">$250</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+    <!--For Women-->
+
+    <h1 class="text-center mt-5 mb-5">For Women</h1>
+    <div class="women" id="women">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8">
+          <div class="card">
+            <button class="card__love-btn">
+              <svg viewBox="0 0 512 512" width="100" title="heart">
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+              </svg>
+            </button>
+            <img class="card__img" src='0ee36f6af3ba187b4798e1c903e512d9.jpg_300x0q75.webp' alt="Classical Watch">
+            <div class="card__body">
+              <h3 class="card__title">Classical Watch Two</h3>
+              <p class="card__text">
+                A classical watch is a timeless and elegant timepiece with its refined design and attention to detail
+                that embodies sophistication and craftsmanship.
+              </p>
+              <div class="card__footer">
+                <button class="btnm">
+                  <svg viewBox="0 0 576 512" width="100" title="shopping-cart">
+                    <path
+                      d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z" />
+                  </svg>
+                  Add to cart                </button>
+                <h4 class="price">$250</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-8">
+
+          <div class="card">
+            <button class="card__love-btn">
+              <svg viewBox="0 0 512 512" width="100" title="heart">
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+              </svg>
+            </button>
+            <img class="card__img" src='7f7a2536041f3c888fde78d4f9670a02.jpg_300x0q75.webp' alt="Classical Watch">
+            <div class="card__body">
+              <h3 class="card__title">Classical Watch Two</h3>
+              <p class="card__text">
+                A classical watch is a timeless and elegant timepiece with its refined design and attention to
+                detail that embodies sophistication and craftsmanship.
+              </p>
+              <div class="card__footer">
+                <button class="btnm">
+                  <svg viewBox="0 0 576 512" width="100" title="shopping-cart">
+                    <path
+                      d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z" />
+                  </svg>
+                  Add to cart 
+                </button>
+                <h4 class="price">$250</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-8">
+
+          <div class="card">
+            <button class="card__love-btn">
+              <svg viewBox="0 0 512 512" width="100" title="heart">
+                <path
+                  d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+              </svg>
+            </button>
+            <img class="card__img" src='photo-1523275335684-37898b6baf30.jpg' alt="Classical Watch">
+            <div class="card__body">
+              <h3 class="card__title">Classical Watch Two</h3>
+              <p class="card__text">
+                A classical watch is a timeless and elegant timepiece with its refined design and attention to
+                detail that embodies sophistication and craftsmanship.
+              </p>
+              <div class="card__footer">
+                <button class="btnm" type="submit">
+                   <svg viewBox="0 0 576 512" width="100" title="shopping-cart">
+                            <path
+                              d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z" />
+                          </svg> 
+                          Add to cart
+                </button>
+                <h4 class="price">$250</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <!--New Arrival-->
+
+
+    <h1 class="text-center mt-5">New Arrival</h1>
+    <div class="New Arrival" id="newarrival">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8">
+
+          <div class="height d-flex justify-content-center align-items-center">
+
+            <div class="card p-3">
+
+              <div class="d-flex justify-content-between align-items-center ">
+                <div class="mt-2">
+                  <h4 class="text-uppercase">Ikea</h4>
+                  <div class="mt-5">
+                    <h5 class="text-uppercase mb-0">Blanda Matt</h5>
+                    <h1 class="main-heading mt-0">VASE</h1>
+                    <div class="d-flex flex-row user-ratings">
+                      <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                      </div>
+                      <h6 class="text-muted ml-1">4/5</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="bedafbbdbd804d37ade49d00ddce3107.jpg_300x0q75.webp" width="200">
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center mt-2 mb-2">
+                <span>Available colors</span>
+                <div class="colors">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+              </div>
+
+
+              <p>A great option weather you are at office or at home. </p>
+
+              <button class="btn btn-danger btnn">Add to cart</button>
+            </div>
+
+          </div>
+
+
+        </div>
+      
+
+      <div class="col-lg-4 col-sm-8">
+        <div class="height d-flex justify-content-center align-items-center">
+
+          <div class="card p-3">
+
+            <div class="d-flex justify-content-between align-items-center ">
+              <div class="mt-2">
+                <h4 class="text-uppercase">Ikea</h4>
+                <div class="mt-5">
+                  <h5 class="text-uppercase mb-0">Blanda Matt</h5>
+                  <h1 class="main-heading mt-0">VASE</h1>
+                  <div class="d-flex flex-row user-ratings">
+                    <div class="ratings">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <h6 class="text-muted ml-1">4/5</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="S33fccbd403d647daad80ebe35d47ad49l.jpg_300x0q75.jfif" width="200">
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center mt-2 mb-2">
+              <span>Available colors</span>
+              <div class="colors">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+            </div>
+
+
+            <p>A great option weather you are at office or at home. </p>
+
+            <button class="btn btn-danger btnn">Add to cart</button>
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-4 col-sm-8">
+          <div class="height d-flex justify-content-center align-items-center">
+
+            <div class="card p-3">
+
+              <div class="d-flex justify-content-between align-items-center ">
+                <div class="mt-2">
+                  <h4 class="text-uppercase">Ikea</h4>
+                  <div class="mt-5">
+                    <h5 class="text-uppercase mb-0">Blanda Matt</h5>
+                    <h1 class="main-heading mt-0">VASE</h1>
+                    <div class="d-flex flex-row user-ratings">
+                      <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                      </div>
+                      <h6 class="text-muted ml-1">4/5</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="image">
+                  <img src="https://i.imgur.com/MGorDUi.png" width="200">
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center mt-2 mb-2">
+                <span>Available colors</span>
+                <div class="colors">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+
+              </div>
+
+
+              <p>A great option weather you are at office or at home. </p>
+
+              <button class="btn btn-danger btnn">Add to cart</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Trending-->
+<h1 class=" trend text-center "> Trending</h1>
+
+<section class="section-products" id="trending">
+  <div class="container trend">
+      <div class="row justify-content-center text-center">
+          <div class="col-md-8 col-lg-6">
+              <div class="header">
+                  <h3>Featured Product</h3>
+                  <h2>Popular Products</h2>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <!-- Single Product -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-1" class="single-product">
+                  <div class="part-1">
+                      <ul>
+                          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                          <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                      </ul>
+                  </div>
+                  <div class="part-2">
+                      <h3 class="product-title">Here Product Title</h3>
+                      <h4 class="product-old-price">$79.99</h4>
+                      <h4 class="product-price">$49.99</h4>
+                  </div>
+              </div>
+          </div>
+          <!-- Single Product -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-2" class="single-product">
+                  <div class="part-1">
+                      <span class="discount">15% off</span>
+                      <ul>
+                          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                          <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                      </ul>
+                  </div>
+                  <div class="part-2">
+                      <h3 class="product-title">Here Product Title</h3>
+                      <h4 class="product-price">$49.99</h4>
+                  </div>
+              </div>
+          </div>
+          <!-- Single Product -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-3" class="single-product">
+                  <div class="part-1">
+                      <ul>
+                          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                          <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                      </ul>
+                  </div>
+                  <div class="part-2">
+                      <h3 class="product-title">Here Product Title</h3>
+                      <h4 class="product-old-price">$79.99</h4>
+                      <h4 class="product-price">$49.99</h4>
+                  </div>
+              </div>
+          </div>
+          <!-- Single Product -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-4" class="single-product">
+                  <div class="part-1">
+                      <span class="new">new</span>
+                      <ul>
+                          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                          <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                      </ul>
+                  </div>
+                  <div class="part-2">
+                      <h3 class="product-title">Here Product Title</h3>
+                      <h4 class="product-price">$49.99</h4>
+                  </div>
+              </div>
+          </div>
+          <!-- Single Product -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-1" class="single-product">
+                  <div class="part-1">
+                      <ul>
+                          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                          <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                      </ul>
+                  </div>
+                  <div class="part-2">
+                      <h3 class="product-title">Here Product Title</h3>
+                      <h4 class="product-old-price">$79.99</h4>
+                      <h4 class="product-price">$49.99</h4>
+                  </div>
+              </div>
+          </div>
+          <!-- Single Product -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-2" class="single-product">
+                  <div class="part-1">
+                      <span class="discount">15% off</span>
+                      <ul>
+                          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                          <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                      </ul>
+                  </div>
+                  <div class="part-2">
+                      <h3 class="product-title">Here Product Title</h3>
+                      <h4 class="product-price">$49.99</h4>
+                  </div>
+              </div>
+          </div>
+          <!-- Single Product -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-3" class="single-product">
+                  <div class="part-1">
+                      <ul>
+                          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                          <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                      </ul>
+                  </div>
+                  <div class="part-2">
+                      <h3 class="product-title">Here Product Title</h3>
+                      <h4 class="product-old-price">$79.99</h4>
+                      <h4 class="product-price">$49.99</h4>
+                  </div>
+              </div>
+          </div>
+          <!-- Single Product -->
+          <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-4" class="single-product">
+                  <div class="part-1">
+                      <span class="new">new</span>
+                      <ul>
+                          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                          <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                          <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                      </ul>
+                  </div>
+                  <div class="part-2">
+                      <h3 class="product-title">Here Product Title</h3>
+                      <h4 class="product-price">$49.99</h4>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container-fluid end">
+  <div class="row">
+    <div class="col-lg-4 col-sm-8">
+  <div class="container-fluid abt">
+    <div>
+    <h5 class="text-center">Daraz</h5>
+    <ul class="ft text-center">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#">Contact Us</a></li> 
+    <li><a href="#men">Men Items</a></li>
+    <li><a href="#women">Women Items</a></li>
+    <li><a href="#contact">New Arrival</a></li>
+    <li><a href="#trending">Trending</a></li> 
+    <li><a href="#about">About Us</a></li> 
+  </ul>
+  </div>
+
+  </div>
+  </div>
+  
+  <div class="col-lg-3 col-sm-8">
+<div class="container-fluid Feedback" id="contact">
+  <div class="vl"> 
+
+  <h5>Contact</h5>
+
+  <p><span>P</span>+92 0088788</p>
+  <p><span>P</span>+92 77788788</p>
+  <p><span>E</span>JJJK@GMAIL.COM</p>
+  <P><img src="">12/CL-6, Claremount Road, Civil Lines, Karachi</P>  </div>
+
+</div>
+</div>
+<div class="col-lg-2 col-sm-6">
+<div class="container-fluid C-Feedback">
+  <div class="vl">
+
+  <h5>Customer Feedback</h5>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, mollitia!</p>
+</div>
+</div>
+
+</div>
+<div class="col-lg-2 col-sm-7">
+<div class="container-fluid Connect">
+  <h5 class="cn color-fair">Connect Now</h5>
+
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+</div>
+</div>
+  </div>
+  <div class="container-fluid copyright text-center">
+
+  <p>&copy 2023, Daraz All Rights Reserved</p>
+</div>
+</div>
+</footer>
+
+
+
+
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+
+      function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+    </script>
+</body>
+
+</html>
